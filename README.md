@@ -7,5 +7,4 @@ A fully functional weather application built using ReactJS and <a href="https://
 
 ## Authors
 - [Ankush](https://github.com/ankush07261)
-## CoAuthor
 - [Shrikara P S Nakshatri](https://github.com/Nakshatri24)
