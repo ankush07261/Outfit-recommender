@@ -1,0 +1,13 @@
+.not {
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 2rem;
+    background-color: rgb(255, 152, 169);
+    box-shadow: 0.5rem 0.5rem 1.5rem rgb(56, 56, 56);
+    margin: 2rem auto 9rem auto;
+    border-radius: 8px;
+}

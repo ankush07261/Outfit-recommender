@@ -1,0 +1,78 @@
+.card-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card {
+    background-color: rgb(255, 191, 73);
+    width: 25%;
+    height: 100%;
+    padding: 1rem 1rem 3rem 1rem;
+    box-shadow: 0rem 0rem 1rem rgb(135, 135, 135);
+    margin: 0 auto 0 0;
+    border-radius: 8px;
+}
+.outfit-rec{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    margin-top: 1rem;
+}
+.image {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.outfit-image{
+    text-align: center;
+}
+.outfit-image h3{
+    text-align: center;
+    
+}
+.outfit-rain{
+    width: 33.3%;
+    margin-top: 1rem;
+}
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.outfit-image h3{
+    width: 63.3;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    gap:1rem
+}
+.outfit-container{
+    width: 75%;
+    height: 100%;
+    color: antiquewhite;
+}
+
+@media only screen and (max-width: 790px) {
+    .card {
+        width: 96%;
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+        box-shadow: 0rem 0rem 1rem rgb(255, 255, 229);
+        border: 2px solid white;
+        margin: 2rem auto;
+        border-radius: 8px;
+    }
+}
